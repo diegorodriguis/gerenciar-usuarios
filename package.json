@@ -2,5 +2,19 @@
   "dependencies": {
     "chai": "^4.3.10",
     "mocha": "^11.7.2"
-  }
+  },
+  "name": "gerenciar-usuarios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
