@@ -1,11 +1,28 @@
-const usuarios = ['Diego', 'João', 'Josilene', 'Jackeline']
+const usuarios = [
+    {
+        nome:'Diego',
+        email:'dijojo@yahoo.com'
+    },
+    {
+        nome:'João',
+        email:'joaozito@yahoo.com'
+    },
+    {
+        nome:'Josilene',
+        email:'jojo@yahoo.com'
+    },
+    {
+        nome:'Jackeline',
+        email:'jacke@yahoo.com'
+    }
+];
 
 function retornarUsuario(){
     return usuarios;
 }
 
-function adicionarNovoUsuario(nome){
-    usuarios.push(nome);
+function adicionarNovoUsuario(usuario){
+    usuarios.push(usuario);
 }
 
 module.exports = {
